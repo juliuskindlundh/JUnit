@@ -9,12 +9,7 @@ public class Calc {
 		return a || b;
 	}
 	
-	public boolean isPalindrome(String str) {
-		boolean isPal = true;
-		for(int i = 0; i < str.length();i++) {
-			if(str.charAt(i) != str.charAt(str.length()-i-1)) {
-				isPal = false;
-			}
+
 		}
 		return isPal;
 	}
